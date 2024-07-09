@@ -150,11 +150,11 @@ const showResult = () => {
 
 // hàm khởi tạo lại bài
 const restartQuiz = () => {
-  localStorage.removeItem("question")
-  currenIndexQuestion = 0;
-  score = 0;
-  loadQuestion();
-};
+    localStorage.removeItem("question");
+    currenIndexQuestion = 0;
+    score = 0;
+    loadQuestion();
+  };
 
 const getLocalData = () => {
   const dt = !!localStorage.getItem("question")
