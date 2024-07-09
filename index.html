@@ -30,7 +30,10 @@
       <div class="quiz-header">
         <i class="fa-solid fa-x icon-cancel"></i>
         <div class="quiz-header__progress">
-          <div id="quiz-header__progress-bar" class="quiz-header__progress-bar"></div>
+          <div
+            id="quiz-header__progress-bar"
+            class="quiz-header__progress-bar"
+          ></div>
         </div>
         <span class="quiz-header__total-question">
           <span id="currentQuestNumber">1</span>
@@ -44,8 +47,8 @@
         </div>
       </div>
       <div class="quiz-footer">
-        <button id="btnNext" class="quiz-footer__btn button-19 btn-next">
-          Next
+        <button id="btnRestart" class="quiz-footer__btn button-19 btn-Restart">
+          Restart
         </button>
         <button id="btnSubmit" class="quiz-footer__btn button-19 btn-submit">
           Submit
@@ -72,15 +75,19 @@
             ></button>
           </div>
           <div class="modal-body">
-          <div class="d-flex justify-content-center align-items-center flex-column">
+            <div
+              class="d-flex justify-content-center align-items-center flex-column"
+            >
               <img src="./giphy.webp" />
               <h4>CONGRATULATIONS!</h4>
-             <p> Your point is: <span class="fw-bold" id="scoreDisplay"></span> </p>
-             <p>
-                Your correct
-                sentences is: <span class="fw-bold" id="correctDisplay"></span>
-             </p>
-          </div>
+              <p>
+                Your point is: <span class="fw-bold" id="scoreDisplay"></span>
+              </p>
+              <p>
+                Your correct sentences is:
+                <span class="fw-bold" id="correctDisplay"></span>
+              </p>
+            </div>
           </div>
         </div>
       </div>

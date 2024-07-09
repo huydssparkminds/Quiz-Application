@@ -3,6 +3,8 @@ const quizMainAnswerElement = document.querySelector(".quiz-main__answer");
 const btnSubmit = document.getElementById("btnSubmit");
 const currentQuestNumber = document.getElementById("currentQuestNumber");
 const progress = document.getElementById("quiz-header__progress-bar");
+const btnRestart = document.getElementById('btnRestart')
+
 
 let score: number = 0;
 let currenIndexQuestion = 0;
@@ -169,6 +171,11 @@ const getLocalData = () => {
     }
   }
 };
+
+
+btnRestart?.addEventListener("click", () => {
+    restartQuiz();
+});
 
 document.addEventListener("DOMContentLoaded", getLocalData);
 

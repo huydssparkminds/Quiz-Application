@@ -27,14 +27,26 @@
         {
             "id": 5,
             "question": "What is the chemical symbol for water?",
-            "choices": ["O2", "H2O", "CO2", "H2"],
+            "choices": ["O2", "H2O", "CO2", "H2", "sss"],
             "correct_answer": 1
         },
         {
             "id": 6,
             "question": "Xin Chao Viet Nam",
             "choices": ["A", "B", "C", "22"],
-            "correct_answer": 1
+            "correct_answer": 3
+        },
+        {
+            "id": 7,
+            "question": "1 + 1 = ?",
+            "choices": ["1", "2", "C2222", "22"],
+            "correct_answer": 2
+        },
+        {
+            "id": 8,
+            "question": "1 + 2 = ?",
+            "choices": ["4", "3", "4", "52"],
+            "correct_answer": 3
         }
     ]
 }

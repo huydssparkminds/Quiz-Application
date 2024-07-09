@@ -13,6 +13,7 @@ const quizMainAnswerElement = document.querySelector(".quiz-main__answer");
 const btnSubmit = document.getElementById("btnSubmit");
 const currentQuestNumber = document.getElementById("currentQuestNumber");
 const progress = document.getElementById("quiz-header__progress-bar");
+const btnRestart = document.getElementById('btnRestart');
 let score = 0;
 let currenIndexQuestion = 0;
 let totalQuestionsCount = 0;
@@ -150,6 +151,9 @@ const getLocalData = () => {
         }
     }
 };
+btnRestart === null || btnRestart === void 0 ? void 0 : btnRestart.addEventListener("click", () => {
+    restartQuiz();
+});
 document.addEventListener("DOMContentLoaded", getLocalData);
 document.addEventListener("DOMContentLoaded", function () {
     loadQuestion();
